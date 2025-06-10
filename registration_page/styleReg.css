@@ -1,0 +1,298 @@
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-light {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+summary {
+  display: block;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  background: #FFFFFF;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border: none;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  background-color: #222222;
+}
+
+.top {
+  overflow: hidden;
+}
+
+.heading {
+  background-color: #F8F3F4;
+}
+.heading__content {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.heading__content_title h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #F16D7F;
+}
+
+.registrationList {
+  display: flex;
+  gap: 128px;
+  padding-top: 64px;
+  padding-bottom: 96px;
+  align-items: normal;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+.person__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.person__info_input {
+  height: 45px;
+  border: 1px solid #A4A4A4;
+  color: #222222;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 15.6px;
+  padding-left: 17px;
+}
+.person__info_input::-moz-placeholder {
+  color: #B1B1B1;
+}
+.person__info_input::placeholder {
+  color: #B1B1B1;
+}
+.person__info h2 {
+  color: #222222;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+.person__gender {
+  padding-top: 31px;
+  padding-bottom: 33px;
+  display: flex;
+  gap: 20px;
+}
+.person__gender_check {
+  display: flex;
+  gap: 10px;
+}
+.person__checkbox_text {
+  color: #000000;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 13.2px;
+}
+.person__login {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.person__login_input {
+  height: 45px;
+  border: 1px solid #A4A4A4;
+  color: #222222;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 15.6px;
+  padding-left: 17px;
+}
+.person__login_input::-moz-placeholder {
+  color: #B1B1B1;
+}
+.person__login_input::placeholder {
+  color: #B1B1B1;
+}
+.person__login h2 {
+  color: #222222;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+.person__passwordRule {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 15.6px;
+  color: #B1B1B1;
+  padding-top: 15px;
+  padding-bottom: 39px;
+}
+
+.registration__btn {
+  border: 1px solid #F16D7F;
+  color: #FFFFFF;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16.8px;
+  padding: 16px 29px;
+  background-color: #F16D7F;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.registration__btn:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #F16D7F;
+  color: #F16D7F;
+  fill: #F16D7F;
+}
+.registration__btn:hover svg {
+  fill: #F16D7F;
+}
+
+.informationrReg {
+  display: flex;
+  gap: 22px;
+  flex-direction: column;
+}
+.informationrReg h2, .informationrReg p {
+  color: #000000;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+.informationrReg__list {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.informationrReg__list_tick {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  color: #000000;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 736px;
+  }
+  .registrationList {
+    gap: 22px;
+    padding-top: 40px;
+  }
+  .informationrReg {
+    gap: 0px;
+  }
+  .informationrReg h2, .informationrReg p {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  .informationrReg p {
+    padding-top: 32px;
+    padding-bottom: 22px;
+  }
+  .informationrReg__list_tick {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  .container {
+    max-width: 360px;
+  }
+  .heading__content {
+    display: flex;
+    justify-content: center;
+  }
+  .registrationList {
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 96px;
+    flex-direction: column;
+  }
+  .informationrReg {
+    gap: 0px;
+  }
+  .informationrReg h2, .informationrReg p {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  .informationrReg p {
+    padding-top: 32px;
+    padding-bottom: 22px;
+  }
+  .informationrReg__list_tick {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+}/*# sourceMappingURL=styleReg.css.map */
